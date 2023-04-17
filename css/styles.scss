@@ -26,6 +26,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	color: white;
 }
 
+.TS{
+	color: #2a0505;
+}
+
 
 
 .info1{
@@ -34,4 +38,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .info2{
 	background-color: #9e3b3c;
+}
+
+.info3{
+	background-color: #95a06f;
 }
