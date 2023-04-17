@@ -24,6 +24,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .helvetica{
 	font-family: Helvetica;
+
 }
 
 .TH{
@@ -46,4 +47,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .info3{
 	background-color: #95a06f;
+}
+
+.footer{
+	background-color: #2a0505;
+}
+
+.helveticafooter{
+	font-family: Helvetica;
+	font-size: x-small;
 }
