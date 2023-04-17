@@ -17,3 +17,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+.body{
+	background-color: #f8f4eb;
+}
+
+
+
+
+.info1{
+	background-color: #a85d1e;
+}
+
+.info2{
+	background-color: #9e3b3c;
+}
