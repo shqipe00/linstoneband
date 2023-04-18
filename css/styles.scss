@@ -57,3 +57,27 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: Helvetica;
 	font-size: x-small;
 }
+
+.loopvideo{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.videoOverlay{
+	z-index: 1;
+	background-color: rgba(0, 0, 0, .45);
+}
+
+.videoContent{
+	z-index: 2;
+}
+
+.HV{
+	font-family: Helvetica;
+	font-size: small;
+}
+
